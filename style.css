@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    color: #17D4FE;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    border: 1px solid #17D4FE;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 7px;
+}
+/* Media Query For Text size */
+@media screen and (max-width: 800px) {
+   .clock{
+    font-size: 40px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+    .clock{
+     font-size: 25px;
+    }
+ }
+
+@media screen and (max-width: 416px) {
+    .clock{
+     font-size: 20px;
+    }
+ }
+
+@media screen and (max-width: 364px) {
+    .clock{
+     font-size: 15px;
+    }
+ }
