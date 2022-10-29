@@ -25,7 +25,7 @@ function showTime() {
   let time = h + ":" + m + ":" + s + " " + session;
   document.getElementById("MyClockDisplay").innerHTML = time;
   //   document.getElementById("MyClockDisplay").innerContent = time;
-  setTimeout(showTime, 2000);
+  setTimeout(showTime, 1000);
 }
 
 showTime();
